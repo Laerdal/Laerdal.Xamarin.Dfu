@@ -8,7 +8,7 @@ output_folder="iOS_Carthage"
 echo "output_folder = $output_folder"
 
 mkdir -p $output_folder
-echo "github \"NordicSemiconductor/IOS-Pods-DFU-Library\" == 4.9.0" > $output_folder/Cartfile
+echo "github \"NordicSemiconductor/IOS-Pods-DFU-Library\" == 4.10.1" > $output_folder/Cartfile
 pushd $output_folder
 carthage update --use-xcframeworks --platform iOS
 popd

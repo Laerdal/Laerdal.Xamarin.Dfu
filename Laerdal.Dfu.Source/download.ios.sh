@@ -7,7 +7,7 @@ echo
 # find the latest ID here : https://api.github.com/repos/NordicSemiconductor/IOS-Pods-DFU-Library/releases/latest
 github_repo_owner=NordicSemiconductor
 github_repo=IOS-Pods-DFU-Library
-github_release_id=32090814
+github_release_id=42255905
 github_info_file="$github_repo_owner.$github_repo.$github_release_id.info.json"
 echo "github_repo_owner = $github_repo_owner"
 echo "github_repo = $github_repo"
